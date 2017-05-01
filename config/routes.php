@@ -5,3 +5,4 @@ use \Psr\Http\Message\ResponseInterface as Response;
 
 $app->get('/uploadimage/view', App\Controllers\UploadImageController::class.':view');
 $app->post('/uploadimage/upload', App\Controllers\UploadImageController::class.':upload');
+$app->get('/test', App\Controllers\ListAuthorsController::class);
